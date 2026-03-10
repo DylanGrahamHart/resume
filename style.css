@@ -29,6 +29,9 @@ a:active {
     width: 820px;
     max-width: 100%;
     margin: 0 auto;    
+}
+#resume-inner {
+    margin: 0 10px;
     padding: 5px 0;
 }
 #resume-title {
@@ -84,19 +87,23 @@ a:active {
 }
 .resume-history-entry:nth-child(2) .resume-history-entryTitle {
 	border-top: none;
+    padding-top: 5px;
 }
 .resume-history-entryTitle {
 	display: inline-block;
 	font-size: 16px;
 	margin-bottom: 15px;
 	border-top: 1px solid #000;
-	padding-top: 10px
+	padding-top: 15px;
 }
 .resume-history-entryPeriod {
 	float: right;
+    display: inline-block;
+    /* padding-top: 5px; */
 }
 .resume-history-entryDetailList {
     margin-left: 20px;
+	padding-bottom: 10px;
 }
 .resume-history-entryDetailList li {
     line-height: 1.5;
