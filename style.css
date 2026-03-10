@@ -1,0 +1,100 @@
+/**
+ * Global
+ */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Roboto', serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #000;
+	text-transform: none;
+	letter-spacing: .00em;
+	line-height: 1;
+}
+a, a:visited {
+	color: #00E;
+	text-decoration: none;
+}
+a:active {
+	color: #0E0;
+}
+
+/**
+ * Resume
+ */
+#resume {
+    width: 820px;
+    max-width: 100%;
+    margin: 0 auto;    
+    padding: 5px 0;
+}
+#resume-title {
+    margin-bottom: 30px;
+}
+.resume-title-row {
+    display: flex;
+    justify-content: space-between;    
+    line-height: 24px;
+}
+#resume-title-name {
+	font-size: 24px;
+	font-weight: bold;    
+}
+.resume-title-row span, .resume-title-row a {
+    width: 25%;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+/**
+ * Resume - Education
+ */
+ #resume-education {
+    margin-bottom: 40px;
+ }
+#resume-education h2 {
+	font-size: 20px;
+	border-bottom: 1px solid #aaa;
+	width: 100%;
+	margin: 0 auto 10px auto;
+	padding: 0 0 10px 0;
+}
+.gpa {
+    font-style: italic;
+    color: orange;
+    position: relative;    
+}
+
+/**
+ * Resume - History
+ */
+#resume-history h2 {
+	font-size: 20px;
+	border-bottom: 1px solid #aaa;
+	width: 100%;
+	margin: 0 auto 15px auto;
+	padding: 0 0 10px 0;    
+    text-align: center;
+}
+.resume-history-entry {
+
+}
+.resume-history-entryTitle {
+	display: inline-block;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.resume-history-entryPeriod {
+	float: right;
+}
+.resume-history-entryDetailList {
+    margin-left: 20px;
+}
+.resume-history-entryDetailList li {
+    line-height: 1.5;
+    margin-bottom: 4px;
+}
+
