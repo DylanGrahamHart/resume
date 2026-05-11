@@ -1,0 +1,5 @@
+
+
+Over the past decade I've built and owned large-scale frontend systems at Amazon and The Home Depot — including an advertising SDK handling hundreds of billions of monthly CDN requests and a sponsored content API serving millions of shoppers on homedepot.com. I thrive in fullstack environments where I can take a product end to end, and I bring deep experience across React, Java, Spring, and AWS. I'd love to bring that same ownership mentality to [Company/Role].
+
+
